@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    display : flex;
+    height : 67px;
+}
+
+.logo {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.navbar li {
+    list-style: none;
+    margin : 0 12px;
+}
+
+.container header {
+    box-shadow: 0 0 8px rgb(240, 7, 104);
+}
+
+.section1 {
+    height : 50vh;
+    margin-bottom: 20px;
+}
+
+.topleft {
+    width : 50%;
+    height : 50vh;
+}
+
+.img_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.topleft .img_logo img {
+    width : 200px;
+}
+
+.topleft h1 {
+    font-size: 2rem;
+}
+
+.topright {
+    width : 50%;
+    height : 50vh;
+}
+
+.topright img {
+    margin-top: 20px;
+    width : 400px;
+    height : auto;
+    margin-left : 60px;
+    overflow-y: hidden;
+}
+
+.btn {
+    background-color :rgb(240, 7, 104);
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 7px 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.section2 {
+    padding: 63px 63px;
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.section2 p {
+    text-align: center;
+
+}
+
+.box {
+    padding: 8px 5px;
+    margin : 20px 20px;
+    border : 2px solid rgb(240, 7, 104);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box h2 {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    background-color: rgb(240, 7, 104);
+    color: white;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    margin : 12px 2px;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight : bolder;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width : 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width : 23wh;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td {
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size: 2rem;
+}
+
+footer {
+    width: 100%;
+    background: #eaeeae;
+}
+
+footer .footer_main {
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+footer .footer_main .tag img {
+    width: 200px;
+}
+
+footer .footer_main .tag p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer .footer_main .tag ul {
+    list-style: none;
+}
+
+footer .copyright {
+    text-align: center;
+}
